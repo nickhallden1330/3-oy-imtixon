@@ -1,0 +1,242 @@
+.kartochka__list {
+    display: inline-block;
+    margin-top: 51px;
+    margin-bottom: 44px;
+}
+
+.kartochka__item + .kartochka__item {
+    margin-top: 15px;
+}
+
+.kartochka__imgg {
+    margin-top: 51px;
+    vertical-align: top;
+}
+
+.kartochka__contentlist {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EDEDED;
+    margin-bottom: 20px;
+}
+
+.kartochka__contentlink {
+    padding: 10px 22px 10px 21px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 250%;
+    color: #535353;
+}
+
+.kartochka__contentlink--active {
+    background-color: #3D4F64;
+    border-radius: 2px 2px 0px 2px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 250%;
+    color: #FFFFFF;
+}
+
+.kartochka__text {
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 171%;
+    color: #000000;
+}
+
+.kartochka__title {
+    font-weight: 5000;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.kartochka__leftlist {
+    margin-bottom: 30px;
+}
+
+.kartochka__leftitem {
+    margin-left: 15px;
+    position: relative;
+    &::before {
+        width: 6px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        left: -10px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #FFC94F;
+        position: absolute;
+        content: '';
+    }
+}
+
+.kartochka__leftitem + .kartochka__leftitem {
+    margin-top: 5px;
+}
+
+.kartochka__mozgititle {
+    display: inline;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #535353;
+}
+
+.kartochka__mozgitext {
+    display: inline;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #535353;
+}
+
+.kartochka__thead {
+    position: relative;
+    padding: 0 18px;
+    margin-bottom: 10px;
+    &::before {
+        position: absolute;
+        width: 1920px;
+        background-color: #F9F9F9;
+        height: 71px;
+        z-index: -1;
+        right: -300px;
+        content:'';
+    }
+}
+
+th {
+    text-align: left;
+    padding: 5px 13px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #535353;
+}
+
+td {
+    padding: 8px 13px;
+    border-bottom: 1px solid #EDEDED;
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.kartochka__link {
+    margin: 11px 0 14px 13px;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #FFC94F;
+}
+
+
+
+
+.card-hero__three {
+    width: 100%;
+    max-width: 500px;
+    display: inline-block;
+    margin-left: 42px;
+    vertical-align: top;
+    margin-top: 90px;
+  }
+  
+  .card-hero__three-title {
+    margin: 0;
+    margin-bottom: 28px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167%;
+    color: #535353;
+  }
+  
+  .card-hero__three-list {
+    padding: 14px 0 20px 0;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+  }
+  
+  .card-hero__three-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .card-hero__three-itemtit {
+    margin: 0;
+    width: 100%;
+    max-width: 135px;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 286%;
+    color: #535353;
+  }
+  
+  .card-hero__three-itemcon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-hero__three-itemspa {
+    display: block;
+    padding: 5px 9px;
+    width: 40px;
+    height: 30px;
+    margin-right: 11px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8c8c8c;
+    border: 1px solid #ededed;
+    border-radius: 2px;
+  }
+  
+  .card-hero__three-itemspa--ac {
+    color: #535353;
+    border: 1px solid #ffc94f;
+  }
+  
+  .card-hero__three-itemspan {
+    display: block;
+    margin-right: 11px;
+    padding: 6px 0 4px 10px;
+    width: 88px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8c8c8c;
+    border: 1px solid #ededed;
+    border-radius: 2px;
+  }
+  
+  .card-hero__three-itemspan--ac {
+    font-weight: 500;
+    font-size: 14px;
+    color: #535353;
+    border: 1px solid #ffc94f;
+  }
+  
+  .card-hero__three-link {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 394px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 250%;
+    text-decoration: none;
+    text-align: center;
+    color: #3d4f64;
+    background-color: #ffc94f;
+    border-radius: 2px;
+  }
