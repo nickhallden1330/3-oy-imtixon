@@ -50,7 +50,6 @@
 }
 
 .katalog__left {
-    width: 302px;
     display: inline-block;
     padding: 11px 26px 19px 21px;
     background-color: #FFFFFF;
@@ -107,9 +106,14 @@
 
 .katalog__right {
     display: inline-block;
+    
+    margin-top: 9px;
+    margin-left: auto;
+    vertical-align: top;
 }
 
 .katalog__righttitle {
+    display: inline;
     font-weight: 700;
     font-size: 18px;
     line-height: 222%;
@@ -120,6 +124,7 @@
     gap: 21px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .katalog__lists {
@@ -131,6 +136,12 @@
     padding: 52px 17px 111px 21px;
     width: 304px;
     border: 1px solid #E5E5E5;
+    &:hover {
+        box-shadow: 0px 0px 30px rgba(255, 201, 79, 0.3);
+    }
+    &:hover  .katalog__price {
+        color: #FFC94F;
+    }
 }
 
 .katalog__img {

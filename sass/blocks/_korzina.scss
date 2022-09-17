@@ -1,0 +1,59 @@
+.korzina__title {
+    margin-top: 39px;
+    margin-bottom: 38px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167%;
+    color: #535353;
+}
+
+.korzina__list {
+    display: flex;
+    align-items: center;
+}
+
+.korzina__item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 286%;
+    color: #000000;
+    &:nth-child(1) {
+        margin-right: 123px;
+    }
+    &:nth-child(2) {
+        margin-right: 397px;
+    }
+    &:nth-child(3 ) {
+        margin-right: 260px;
+    }
+    &:nth-child(4) {
+        margin-right: 178px;
+    }
+}
+
+.korzina__img {
+    margin-right: 31px;
+}
+
+.korzina__itemm {
+    display: flex;
+    align-items: center;
+    padding: 22px 0 40px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.korzina__titlee {
+    margin-bottom: 2px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #535353;
+}
+
+.korzina__child {
+    padding-right: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #505050;
+}
